@@ -1,8 +1,8 @@
 ---
 - name: Launch Docker Container
-  hosts: docker
+  hosts: prod
   vars:
-    docker_image: "manasvi2703/Django"
+    docker_image: "manasvi2703/jango"
     docker_tag: "latest"
     container_name: "con1"
     host_port: "8000"
